@@ -21,10 +21,10 @@ function setup(){
   //障害物をおく
   //drawの関数の中に書いたら毎フレーム初期化されるため、障害物として扱えない、当たり判定などができないため外に書く
   obstacles = [
-    {x: width*0.6, y: height*0.8 - 40, w: 50, h: 20},
+    {x: width*0.6, y: height*0.8 - 20, w: 50, h: 20},
     {x: width*0.7, y: height*0.8 - 40, w: 50, h: 20 },
     {x: width*0.1, y: height*0.8 - 40, w: 50, h: 20 },
-    {x: width*0.2, y: height*0.8 - 120, w: 50, h: 20 },
+    {x: width*0.2, y: height*0.8 - 20, w: 50, h: 20 },
     {x: width*0.9, y: height*0.8 - 120, w: 50, h: 20 },
     {x: width*0.8, y: height*0.8 - 120, w: 50, h: 20 },
     {x: width, y: height*0.8 - 60, w: 50, h: 20 },
